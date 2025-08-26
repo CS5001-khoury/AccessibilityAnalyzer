@@ -130,4 +130,28 @@ The following questions will require you run the Accessibility Analyzer to gener
 4. Did running this application help you learn anything new about html / web colors? If so, what?
 
 
+> Make sure to look at your rendered document in github!  
+> Before you turn it in for grading.
+
+
 ## Deeper Thinking
+
+Human Computer Interaction (HCI) is a field within computer science that focuses on how people interact with technology systems. It involves designing interfaces and experiences by continuously communicating with stakeholders, conducting research into effective design patterns, and questioning assumptions about user behavior and needs. 
+
+HCI emphasizes inclusive design - creating systems that work for people across different abilities, backgrounds, and contexts. This approach extends beyond basic accessibility compliance to consider the full spectrum of human diversity. Whether designing web applications, operating systems, VR/AR experiences, or video games, HCI practitioners integrate user research and inclusive principles throughout the development process.
+
+HCI intersects with virtually all domains of computer science and relies heavily on collaboration between designers, developers, researchers, and clients to build systems that better serve diverse communities.
+
+**Assignment:**
+
+Research HCI and UX design to understand the field better. Find at least three credible sources (academic articles, professional publications, or reputable industry resources) and provide links to them. 
+
+After reviewing your sources, write a reflection addressing these questions:
+
+1. Based on your research, how would you define HCI and its core principles?
+
+2. Why is inclusive design particularly important in computer science and HCI? Consider both ethical and practical implications.
+
+3. How might the accessibility concepts you learned in this assignment (color contrast, colorblindness considerations) connect to broader HCI principles?
+
+Your reflection should demonstrate understanding of the field while incorporating insights from your research sources. Write in paragraph form rather than bullet points, and aim for thoughtful analysis rather than simple summaries.
