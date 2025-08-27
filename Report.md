@@ -120,7 +120,7 @@ The following questions will require you run the Accessibility Analyzer to gener
 
     3.4 What were the results for that test
     ```
-     color 1: copy and paste here
+      copy and paste here
     ```
 
     3.5 Did your your original colors pass better than the modified color blindness ones?
