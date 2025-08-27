@@ -20,12 +20,36 @@ For every function, you define it, you document it, you implement it, and then y
 
 ## Accessibility Analyzer
 
+A tool has been developed to help analyze colors, especially how they relate to accessibility for color blindness, contrast, and view-ability.  However, the tool needs you to develop the individual functions on how they work.
+
+You will see [../src/color_tools.py](../src/color_tools.py) has the function definition and stubs already provided for you. Additionally, we have completed the two hardest functions, to leave seven functions for you to implement. Each of those seven has an "implementation" section as part of the docstring. While not normal, it seemed the best place to keep your work in once place. 
+
+### Step 1 - Doctests - provided functions
+Every function in [../src/color_tools.py](../src/color_tools.py) will need to have six (6) examples. We suggest you start with the two provided functions (`calculate_luminance(int, int, int)` and `simulate_colorblindness(int, int, int, str)`). For each function, analyze the code, run it in an interactive window to better understand it, and then generate three additional examples. 
+
+> [!NOTE]
+> Make sure to consistently run the code. You will see any doctest you add will automatically be run. 
+
+### Step 2 - Other Functions
+
+For each remaining function
+
+* Add doctests - This will involve not only understanding what they are supposed to do, but probably work you will  need to do on paper working out solutions given different inputs. 
+* implement
+* test 
+
+Needless to say, this assignment requires you to develop a deeper understanding of the underlining algorithm before you implement! This is an important skill for a computer scientist, and one that you won't learn right away. It takes practice (often many years), so don't worry if you struggle with it - that is part of the learning process. 
+
+
 
 ## Running Unit Tests
 We have provided unit tests in [tests/test_color_tools.py](../tests/test_color_tools.py) to run after you have finished the application. You can run those tests in VS code or via the command line. Ideally your code should pass all of them. If it does not, you will want to evaluate why not. Looking through them will also help you think of edge cases you may have forgotten in your examples. 
 
 ## Running the Larger Application
 
+You will need to run the final application. This is because we will have questions in the report that ask you to run the application, plus it is often more rewarding than just seeing tests pass. Have fun with it. 
+
+To better understand colors, html values, and color blindness, see below!
 
 
 ## Report.md and README.md
@@ -131,3 +155,34 @@ For manually graded elements, we only guarantee time to submit for a regrade IF 
 
 ## 📚 Additional Resources
 
+
+### Understanding Colorblindness
+
+Roughly 8% of Northern European Descent are colorblind. However, application developers often fail to develop applications that can been seen by individuals with colorblindness, or even worse, they use colors to convey information that is not available in any other way. A recent example had a bus route applications that put 
+blue on green to indicate a bus was on time. This was not accessible to individuals with colorblindness.
+
+There are many different types of color blindness. The most common is red-green color blindness. This is where the individual has trouble distinguishing between red and green. For this assignment, we will be filtering
+colors based on three types of color blindness: Protanopia, Deuteranopia, and Tritanopia.
+
+* Protanopia - Red and Green is reduced in intensity.
+* Deuteranopia - Red and Green is reduced in intensity, but more emphasis on Green.
+* Tritanopia - Blue is reduced in intensity.
+
+While this assignment over simplifies the testing of these colors (spoiler: this could be a fun final project to improve upon), it will give you a sense of how to use functions to break down a problem into smaller parts.
+
+### Understanding RGB Values
+
+RGB stands for Red, Green, Blue. It is a way of representing colors in a computer. Each color is represented by a number between 0 and 255. For example, the color white is represented by (255, 255, 255) and the color black is represented by (0, 0, 0). For this assignment we will be using RGB values. While true color is often a much wider range, and can include alpha (transparency) values, we will be using the simplified version.
+
+While the code is provided, you will also print out the HTML values for the colors. HTML colors are represented by a # followed by 6 hexadecimal digits. For example, white is #FFFFFF and black is #000000. A hexadecimal digit is a number between 0 and 9, or a letter between A and F. The letters A through F represent the numbers 10 through 15. For example, the number 10 in hexadecimal is A, and the number 15 in hexadecimal is F. As you are covering binary in CS 5002 which is a "base 2" notation of numbers, hexadecimal is a "base 16" notation of numbers compared to our standard "base 10" notation. The reason HTML uses hexadecimal is because it is a more compact way of representing colors, representing 3 bytes (0-255) of information in 6 digits.
+
+
+### Inclusive Design Resources
+The following resources will be helpful in answering the Deeper Thinking in your report. Make sure to
+cite them if you use them!
+
+* [Microsoft Inclusive Design](https://inclusive.microsoft.design/)
+* [What is Inclusive Design](http://www.inclusivedesigntoolkit.com/whatis/whatis.html)
+* [W3Schools Design Tips](https://www.w3.org/WAI/tips/designing/)
+* [10 Essential Guidelines for Colorblind Friendly Design](https://www.colorblindguide.com/post/colorblind-friendly-design-3)
+* [Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/)
