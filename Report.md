@@ -66,14 +66,13 @@ For all these questions, it is recommended you use the python interpreter and tr
 The following questions will require you run the Accessibility Analyzer to generate results. 
 
 > Do display colors in the markdown, you will have to switch to standard html and built in styles. For example, the code below, will generate a 'teal' block with black text. Feel free to copy and past the block, only modifying the color values as you need.   
-> <span style="background-color: #4ECDC4; color: #000000; padding: 2px 6px;"> #4ECDC4</span>
+> ![#4ECDC4](https://placehold.co/15x15/4ECDC4/4ECDC4.png) `#4ECDC4`
 
 1. Check WCAG contrast compliance - pick two colors to run with the WCAG option (1) in the color app.
    
    1.1  What two colors did you pick (use the color block but update values)
-      
-      * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
-      * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
+      * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
+      * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
 
 
    1.2  What was the result, use the block below to copy and paste the result of the test
@@ -85,14 +84,14 @@ The following questions will require you run the Accessibility Analyzer to gener
 
    1.4 Explore colors until you can find two that pass all the WCAG compliance categories.  What two did you find?
        
-      * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
-      * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
+      * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
+      * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
   
 2.  Analyze color properties - pick a color to run with this option
 
     2.1 What color did you pick?
     
-       * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
+       * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
     
     2.2 What are the results, copy and paste them below.
      ```
@@ -103,8 +102,8 @@ The following questions will require you run the Accessibility Analyzer to gener
 
     3.1 What colors did you pick?
 
-     * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
-     * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
+     * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
+     * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
 
     3.2 What were the results for each of them - copy and paste below in each block
     ```
@@ -116,8 +115,8 @@ The following questions will require you run the Accessibility Analyzer to gener
 
     3.3 Now run modified (by the colorblindness type) colors through the Check WCAG contrast compliance option. Spoiler, at least one should fail, but there may be rare cases it passes. You should also run the original colors through the Check WCAG.
  
-     * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
-     * <span style="background-color: #CCCCCC; color: #000000; padding: 2px 6px;"> #CCCCCC</span>
+     * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
+     * ![#CCCCCC](https://placehold.co/15x15/CCCCCC/CCCCCC.png) `#CCCCCCC`
 
     3.4 What were the results for that test
     ```
